@@ -9,8 +9,8 @@ class FrameQueue:
         self.q=queue.Queue()
         self.stop_event=threading.Event()
 
-    def put(self, frame, captured_at):
-        self.q.put((captured_at,frame))
+    def put(self, item):
+        self.q.put(item)
 
     def get(self, timeout=1):
         return self.q.get(timeout=timeout)
