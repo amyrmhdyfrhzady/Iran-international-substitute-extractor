@@ -1,0 +1,45 @@
+{
+  "url": "https://ott.iranintl.com/tv?lang=fa",
+  "worker_minutes": 290,
+  "capture_interval_seconds": 0.5,
+  "processing_queue_max": 0,
+  "change_threshold": 0.012,
+  "layout_detection": {
+    "red_min_saturation": 80,
+    "red_min_value": 70,
+    "white_min_value": 205,
+    "white_min_saturation": 70,
+    "min_red_pixels": 120,
+    "min_red_components": 3
+  },
+  "regions": {
+    "mode1": {
+      "capital": {
+        "x": 0.24,
+        "y": 0.79,
+        "width": 0.62,
+        "height": 0.14
+      }
+    },
+    "mode2": {
+      "capital": {
+        "x": 0.3,
+        "y": 0.57,
+        "width": 0.6,
+        "height": 0.15
+      },
+      "textnews": {
+        "x": 0.33,
+        "y": 0.76,
+        "width": 0.62,
+        "height": 0.13
+      }
+    }
+  },
+  "ocr": {
+    "language": "fas",
+    "psm_capital": 6,
+    "psm_textnews": 6,
+    "scale": 3
+  }
+}
