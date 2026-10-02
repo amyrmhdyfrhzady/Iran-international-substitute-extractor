@@ -1,7 +1,13 @@
 {
-  "updated_at": "2026-10-03T00:00:00.077546+03:30",
+  "updated_at": "2026-10-03T01:00:00.431198+03:30",
   "timezone": "Asia/Tehran",
   "hours": [
+    {
+      "time": "01:00",
+      "day": "3 October 2026",
+      "CapitalNews": [],
+      "TextNews": []
+    },
     {
       "time": "00:00",
       "day": "3 October 2026",
